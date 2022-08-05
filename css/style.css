@@ -5,7 +5,7 @@
 /*цвет фона #2F303A*/
 /*цвет фона кнопок #F5F4FA*/
 
-:root {
+/*:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -15,9 +15,9 @@
   --social-color: #AFB1B8;
   --footer-icon: rgba(255, 255, 255, 0.1);
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
-body {
+/*body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
@@ -29,23 +29,23 @@ body {
 
 .no-scroll {
   overflow: hidden;
-}
+}*/
 
-.container {
+/*.container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-}
+}*/
 
-.list {
+/*.list {
   padding: 0px;
   margin: 0px;
   list-style: none;
-}
+}*/
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -55,7 +55,7 @@ p,
 ul {
   margin-top: 0px;
   margin-bottom: 0px;
-}
+}*/
 
 /*логотип*/
 .logo {
@@ -70,9 +70,9 @@ ul {
   text-decoration: none;
 }
 
-a {
+/*a {
   text-decoration: none;
-}
+}*/
 
 .logo-foot {
   display: block;
@@ -228,9 +228,7 @@ a {
   text-transform: uppercase;
 }
 
-.hero__button,
-.button-footer,
-.button-form {
+/*.bttn {
   border: none;
   border-radius: 4px;
   min-width: 200px;
@@ -254,15 +252,12 @@ a {
   transition: background-color var(--transition), color var(--transition);
 }
 
-.hero__button:hover,
-.hero__button:focus,
-.button-footer:hover,
-.button-footer:focus,
-.button-form:hover,
-.button-form:focus {
+.bttn:hover,
+.bttn:focus
+ {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
-}
+}*/
 
 
 .button-footer:hover .footer-button-icon,
@@ -271,7 +266,7 @@ a {
 }
 
 
-@keyframes hero-button {
+/*@keyframes hero-button {
   0% {
     opacity: 0;
     transform: translate(-50px, -100px) skew(15deg) scale(1.25);
@@ -286,7 +281,7 @@ a {
     opacity: 1;
     transform: translate(0px, 0px) skew(0deg) scale(1);
   }
-}
+}*/
 
 .section .title {
   margin-top: 0px;
@@ -515,10 +510,10 @@ a {
   margin-bottom: 9px;
 }
 
-.link,
+/*.link,
 .list {
   text-decoration: none;
-}
+}*/
 
 .list-link {
   color: var(--primary-text-color);
@@ -798,7 +793,7 @@ a {
   margin-right: 70px;
 }
 
-.backdrop.is-hidden {
+/*.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -819,9 +814,9 @@ a {
   transition: opacity 400ms ease-in, visibility 500ms ease-in-out;
 
 
-}
+}*/
 
-.visualy-hidden {
+/*.visualy-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -865,7 +860,7 @@ a {
   top: 8px;
   right: 8px;
   cursor: pointer;
-}
+}*/
 
 
 .footer-input {

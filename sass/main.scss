@@ -1,0 +1,13 @@
+//base styles
+@import './base/base';
+@import './base/reset';
+
+//utils styles
+@import './utils/visually_hidden';
+@import './utils/variables';
+@import './utils/animations';
+
+//components styles
+@import './components/buttons';
+@import './components/container';
+@import './components/modal-form';
