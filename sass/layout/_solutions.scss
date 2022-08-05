@@ -1,6 +1,5 @@
 .solution {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @include padding;
 
   &__list {
     display: flex;
